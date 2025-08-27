@@ -1,8 +1,12 @@
-RELAY_PIN 25
-LCD_ADDRESS 0x27
-LCD_COLUMNS 16
-LCD_ROWS 2
-LED_PIN 2
-#BUZZER_PIN 33
-#define VIRTUAL_LCD_LINE1 V2
-#define VIRTUAL_LCD_LINE2 V3
+## 🔌 Hardware Pin Configuration
+
+| Komponen     | Pin Arduino/ESP32 |
+|--------------|-------------------|
+| Relay        | 25                |
+| LCD I2C Addr | 0x27              |
+| LCD Columns  | 16                |
+| LCD Rows     | 2                 |
+| LED          | 2                 |
+| Buzzer       | 33                |
+| Virtual LCD Line 1 (Blynk) | V2  |
+| Virtual LCD Line 2 (Blynk) | V3  |
